@@ -15,6 +15,15 @@ fn save_chart(elements_json: &str) {
 #[tauri::command]
 fn load_chart() -> String {
     let path = "chart.json";
+
+    if !std::path::Path::new(path).exists() {
+        fs::write
+        (
+            path,
+            "[]"
+        ).expect("Unable to write file");
+    }
+
     let contents = fs::read_to_string(path)
         .expect("Something went wrong reading the file");
     return contents;

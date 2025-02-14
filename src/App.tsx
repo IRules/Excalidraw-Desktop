@@ -50,7 +50,7 @@ function App() {
             setElements(elements);
             setExcalidrawElement(<Excalidraw theme={"dark"} initialData={{
                 elements
-            }} onChange={SaveOnChange}/>)
+            }} onChange={SaveOnChange} />)
         });
     }
 
