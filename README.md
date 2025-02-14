@@ -14,6 +14,13 @@ Please do not ask for these features to be implemented:
 
 ## Installation
 
+1. Go to Releases and download the latest installer for your platform.
+2. Run the installer and follow the instructions.
+3. Do not run the app from the installer ( it will save the Chart in the wrong location - To be fixed ). Instead, run the app from the start menu or run the executable from the installation directory.
+4. If you like the app, please consider starring the repository. Thank you!
+
+## Manual Installation
+
 ### Windows
 
 Prerequisites:
